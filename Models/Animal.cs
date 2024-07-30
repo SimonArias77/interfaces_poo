@@ -32,4 +32,9 @@ public abstract class Animal
     }
 
     public abstract void Respirar();
+
+    public void Desplazar()
+    {
+        Console.WriteLine($"{Nombre} está moviéndose.");
+    }
 }
